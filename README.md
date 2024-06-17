@@ -12,14 +12,14 @@ To set up and run the project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your/repository.git
+   git clone https://github.com/lunqwe/aipickles-task.git
    cd repository
    ```
 
 2. **Install dependencies:**
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r req.txt
    ```
 
 3. **Run the FastAPI server:**
@@ -27,9 +27,7 @@ To set up and run the project locally, follow these steps:
    ```bash
    uvicorn main:app --reload
    ```
-
-   Replace `main` with the filename of your FastAPI application if different.
-
+   
 4. **Access the API:**
 
    The FastAPI server will start locally. You can access the API endpoints using tools like `curl` or by navigating to `http://localhost:8000` in your browser.
